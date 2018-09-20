@@ -1,0 +1,1 @@
+SELECT Count(i.InvoiceId) as NumOfInv FROM Invoice i WHERE i.InvoiceDate LIKE "2009%" OR i.InvoiceDate LIKE "2011%"
